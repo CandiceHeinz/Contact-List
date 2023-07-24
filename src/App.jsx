@@ -1,13 +1,10 @@
 import React from "react"; 
-import {useEffect} from 'react'
+import "./App.css";
+import { useState } from "react";
+import ContactList from "./components/ContactList";
+import SelectedContact from "./components/SelectedContact.jsx";
 
-export default function App() {
-  return (
-    <>
-      <ContactList />
-    </>
-  );
-}
+export default App;
 
 useEffect(() => {
   async function fetchContacts() {
