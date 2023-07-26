@@ -1,0 +1,17 @@
+table,
+th,
+td {
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: rgb(2, 1, 17);
+  border: 3px solid rgb(255, 255, 255);
+  width: 50%;
+  height: 25px;
+  background-color: #ffffff31;
+}
+
+tr:hover {
+  background-color: rgb(50, 202, 207);
+}
